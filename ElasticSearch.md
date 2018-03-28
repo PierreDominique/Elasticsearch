@@ -86,6 +86,8 @@ DELETE /_all
 * vérification de l'existance 
 GET /data/_mapping
 
+* à roujter
+"include_in_all": true, 
 
 
 
