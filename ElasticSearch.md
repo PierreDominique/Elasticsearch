@@ -2,13 +2,13 @@
 
 ## 
 
-Creation index:
+* Creation index:
 ```
 PUT data0
 {"settings":{"index":{"number_of_shards":2,"number_of_replicas":0}}}
 ```
 
-Modif index:
+* Modif index:
 ```
 PUT data0/_settings
 { "index" : {
@@ -17,7 +17,7 @@ PUT data0/_settings
 }}
 ```
 
-Creation d'alias:
+* Creation d'alias:
 ```
 POST /_aliases
 {
