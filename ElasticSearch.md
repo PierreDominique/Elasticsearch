@@ -44,7 +44,7 @@ DELETE /_all
           "index": "not_analyzed",
           "store": true
         },
-        "nom": {
+        "name": {
           "properties": {
             "nom": {
               "type": "string",
